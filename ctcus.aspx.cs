@@ -31,7 +31,7 @@ namespace MenuDemos
                 emailTextBox.Text = "";
                 nameTextBox.Text = "";
                 messageTextBox.Text = "";
-                Response.AddHeader("REFRESH", "6;URL=../default.aspx");
+                Response.AddHeader("REFRESH", "6;URL=/default.aspx");
             }
             catch (Exception) { }
         }
