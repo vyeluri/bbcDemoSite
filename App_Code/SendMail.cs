@@ -31,7 +31,8 @@ public class SendMail
 
                //Name the client which you will be using to send email.
                SmtpServer.Port = 587;
-               
+
+               SmtpServer.Credentials = new System.Net.NetworkCredential("username", "password");
                SmtpServer.EnableSsl = true;
 
                SmtpServer.Send(msg);
