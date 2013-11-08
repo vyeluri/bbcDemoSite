@@ -1,0 +1,104 @@
+﻿/*body {
+    margin: 0; padding: 0;
+}*/
+header{
+    height: 275px;
+    background: url(../images/banner_large1.jpg) no-repeat right 0px;
+}
+
+
+
+header a.logo { 
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+    header a.logo
+    {
+        width: 200px;
+        height: 100px;
+        top: 28px;
+        right: 40px;
+        background-image: url(../images/bbc_logo_large1.png);
+    }
+
+.clear
+{
+    clear:both;
+    line-height: 1px;
+}
+
+article
+{
+    padding: 40px 20px 10px 20px
+}
+
+article p.au
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.promo_container { padding: 30px 0px 15px 20px}
+.promo_container .promo {
+    width: 33%;
+    float: left;
+    background-position: 0px 3px;
+}
+.promo_container .promo .content { padding: 0px 30px 0px 70px;}
+
+
+/*Testing with navigation*/
+.gap
+{
+    width: 20px;
+}
+
+.email
+{
+    width: 300px;
+    height:500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #878080;
+    border-top-width:5px;
+    
+    border-top-color:#000;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-topright:50px;
+    -moz-border-radius-bottomleft: 50px;
+}
+
+/*Textbox Watermark*/
+
+.unwatermarked {
+	height:18px;
+	width:148px;
+}
+
+.watermarked {
+	height:20px;
+	width:150px;
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	color:gray;
+}	
+
+.Button 
+        {
+         width: auto;
+         padding: 9px 15px;
+        background: #808080;
+         border: 0;
+         font-size: 14px;
+         color: #FFFFFF;
+         -moz-border-radius: 5px;
+         -webkit-border-radius: 5px;
+         cursor: pointer;
+     }
+
+/*End Tesing*/

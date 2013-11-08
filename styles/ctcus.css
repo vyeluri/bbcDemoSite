@@ -1,0 +1,81 @@
+﻿body {
+    color:  #575c7a;
+    line-height: 1.5cm;
+    font-family: Arial;
+    font-size: 14px;
+    background: #fff;
+    margin:0;
+    padding:0;
+}
+
+.page
+{
+    max-width: 980px;
+    height: 500px;
+    margin:  0px auto 10px auto;
+    position: relative;
+    background-color: #fff;
+    
+}
+
+h1{
+    font-size: 2em; font-weight: normal; color: #a6430a; margin:  0 0 .5em 0;
+}
+h2{
+    font-size: 1.7em;  margin:  0 0 1em 0;
+}
+h3{
+    font-size: 1.5em; margin: 0 0 1em auto;
+}
+p { 
+    font: 16px Arial;
+    margin-bottom: 20px;
+}
+
+.headLine
+{
+    height:33px;
+    background-color: #808080;
+}
+
+header
+{
+    height: 275px;
+    background: url(../images/ctcus.jpg) no-repeat right 0px;
+}
+.clear
+{
+    height: 1px;
+    
+    background: url(../tos/images/footer.png) repeat right 0px;
+}
+.back
+{
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+
+    width:34px;
+    height:34px;
+    left: 10px;
+    background-image: url(../images/leftArrow.png);
+}
+article
+{
+    padding:  30px 60px 140px 0px;
+}
+
+
+/*Content for About Us page*/
+
+.headLineAbt
+{
+    height:33px;
+    background-color: #808080;
+}
+.header
+{
+    height: 275px;
+    background: url(../images/abtus.jpg) no-repeat right 0px;
+}

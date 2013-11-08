@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="reg.master.cs" Inherits="tos_reg" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <%--<link rel="stylesheet" type="text/css" href="~/tos/txtbox.css" >--%>
+    <link rel="stylesheet" type="text/css" href="~/tos/css/test.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:1360px) and (max-width:1380px) and (min-height:760px) and (max-height:770px)"   href="~/tos/css/test1.css">
+   
+	
+    <!--Textbox Css-->
+
+		
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+                <asp:LinkButton id="link1" runat="server" text="Business BANC of Commerce" CssClass="button" Font-Bold="False" Font-Size="X-Large" ForeColor="White" PostBackUrl="~/default.aspx" />
+            </header>
+        <div class="page">
+            <%--<header>
+                <asp:LinkButton id="link1" runat="server" text="Business BANC of Commerce" CssClass="button" Font-Bold="False" Font-Size="X-Large" ForeColor="White" PostBackUrl="~/default.aspx" />
+            </header>--%>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            </div>
+        
+    </form>
+       <%-- <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>--%>
+</body>
+</html>

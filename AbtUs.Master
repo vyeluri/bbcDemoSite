@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AbtUs.Master.cs" Inherits="AbtUs" %>
+<%@ Register Src="MainMenu.ascx" TagName="MainMenu" TagPrefix="bm" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>BBC : About Us</title>
+    <link href="styles/ctcus.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+    <div class ="page">
+        <%--<div class="headLineAbt">
+                <a class="back" href="default.aspx"></a>
+            </div>--%>
+            <div class ="header">
+                
+            </div>
+        <div class="MenuBack">
+        <table><tr><td>
+            <bm:MainMenu runat="server" ID="mm" />
+        </td><td>
+        </td></tr></table>
+    </div>
+        <div class="clear"></div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer>
+
+    </footer>
+    <div class="clear">
+
+    </div>
+    <div class ="footer" style="font-size: small; padding: 0px 0px 10px 0px">
+        <div class="gap" style="padding:10px">© 2012 Business BANC of Commerce </div>
+    </div>
+        </div>
+    </form>
+</body>
+</html>

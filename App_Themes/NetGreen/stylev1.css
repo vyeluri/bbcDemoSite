@@ -1,0 +1,248 @@
+﻿body
+{
+    margin:0px;
+    color:  #575c7a;
+    line-height: 0.5cm;
+    font-family: Arial;
+    font-size: 14px;
+    background: #fff;
+   
+}
+
+.page
+{
+     
+}
+
+.MenuBack
+{
+    height:58px;
+    background: url(images/GrayBack.jpg) top left repeat-x;
+    position:relative;
+}
+
+.MainMenu
+{
+    position:relative;
+    top:20px;
+}
+.MainMenu td
+{
+    vertical-align:bottom;
+}
+
+.MainMenuItem
+{
+    background: url(images/wb.jpg) top left repeat;
+    margin:0px 2px;
+}
+
+.MainMenuItema
+{
+    background: url(images/wtl.jpg) top left no-repeat;
+}
+
+.MainMenuItemb
+{
+    background: url(images/wtr.jpg) top right no-repeat;
+}
+
+.MainMenuItem a
+{
+    height:25px;
+    padding: 10px 20px 0px 20px;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: Gray;
+    text-decoration: none;
+}
+
+
+.MainMenuItem.FirstChild
+{
+}
+.MainMenuItem.FirstChild a
+{
+    width:170px;
+    height:25px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.MainMenuItem.Selected 
+{
+    background: url(images/gb.jpg) top left repeat;
+}
+.MainMenuItem.Selected .MainMenuItema
+{
+    background: url(images/gt.jpg) top left repeat-x;
+}
+.MainMenuItem.Selected .MainMenuItemb
+{
+    background: url(images/gtl.jpg) top left no-repeat;
+}
+.MainMenuItem.Selected .MainMenuItemc
+{
+    background: url(images/gtr.jpg) top right no-repeat;
+}
+
+.MainMenuItem.Selected a
+{
+    color:white;
+}
+
+
+
+.SecondMenu
+{
+    position:absolute;
+    background: url(images/sgb.jpg) top left repeat;
+    margin:0px 2px 0px 5px;
+    height:26px;
+    padding-bottom:10px;    
+}
+
+.SecondMenua
+{
+    background: url(images/sgl.jpg) top left no-repeat;
+}
+
+.SecondMenub
+{
+    background: url(images/sgr.jpg) top right no-repeat;
+    padding-left:10px;
+}
+
+.SecondMenuItem
+{
+    background: url(images/sgdiv.jpg) top right no-repeat;
+}
+
+.SecondMenuItem a
+{
+    padding: 10px 10px 8px 10px;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.SecondMenuItem.LastChild
+{
+    background-image:none;
+}
+
+.SecondMenuSubMenu
+{
+    background: url(images/grb.jpg) top left repeat;
+    padding-bottom:4px;
+}
+
+.SecondMenuSubMenuItem
+{
+}
+.SecondMenuSubMenuItem a
+{
+    padding: 2px 30px 5px 10px;
+    color:White;
+    text-decoration:none;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+    font-size: 12px;
+    background: url(images/grdiv.jpg) bottom left repeat-x;
+}
+
+.SecondMenuSubMenuItem.LastChild a
+{
+    background:none;
+}
+
+.SecondMenuSubMenuItem a:hover
+{
+    color: #A2C340;
+}
+
+.SubMenuParent.active .SecondMenuItem a
+{
+    color:#A2C340;
+}
+.SubMenuParent.active .SecondMenuItem
+{
+    background: url(images/grb.jpg) top left repeat;
+}
+.SubMenuParent.active .SecondMenuItema
+{
+    background: url(images/grt.jpg) top left repeat-x;
+}
+.SubMenuParent.active .SecondMenuItemb
+{
+    background: url(images/grl.jpg) top left no-repeat;
+}
+
+.SubMenuParent.active .SecondMenuItemc
+{
+    background: url(images/grr.jpg) top right no-repeat;
+}
+
+
+
+/*--- Special html menus ---*/
+.EmailSubMenu
+{
+    padding:5px 10px 20px 5px;
+    cursor: default;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+}
+
+.EmailSubMenu a
+{
+    text-decoration:none;
+}
+
+.EmailSubMenu td
+{
+}
+
+.SSMO {vertical-align:top;}
+.SSMS
+{
+    width:15px;
+}
+
+.SSMI
+{
+    white-space:nowrap;
+    vertical-align:bottom;
+}
+
+.SSMI:hover
+{
+    background-color: #727272;
+    cursor:pointer;
+}
+.SSMHead
+{
+    color: #A2C340;
+    font-size: 18px;
+    font-weight: bold;
+    white-space:nowrap;
+    vertical-align:bottom;
+}
+
+.SSMH2
+{
+    padding-left:4px;
+    color:White;
+    font-size:14px;
+    font-weight: bold;
+    border-top: dotted 1px white;
+}
+
+.SSMIBody
+{
+    padding-left:4px;
+    color:White;
+    font-size:12px;
+    white-space:nowrap;
+}

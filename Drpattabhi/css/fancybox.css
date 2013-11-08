@@ -1,0 +1,78 @@
+body {
+    margin:0px;
+    color:  #575c7a;
+    line-height: 0.5cm;
+    font-family: Arial;
+    font-size: 14px;
+    background: #fff;
+}
+
+.page {
+    max-width: 1366px;
+    height: 500px;
+    margin: 10px auto 10px auto;
+    position: relative;
+    background-color: #fff;
+}
+
+
+.fb {
+    width: 980px;
+    top: 100px;
+    padding: 10px 10px 100px 0px 
+}
+
+article
+{
+    width:980px;
+    padding: 20px 10px 210px 160px
+}
+
+header{
+    height: 40px;
+    background-color : #6bac18;
+}
+
+ a.button
+{
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    
+}
+
+a.button
+{
+    left: 30px;
+    top: 10px;
+    text-decoration:none;
+    
+    
+}
+/*header a.logo { 
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+    header a.logo
+    {
+        width: 200px;
+        height: 100px;
+        top: 28px;
+        left: 40px;
+        background-image: url(../img/bbc_logo_large1.png);
+    }*/
+
+footer
+{
+    height: 1px;
+    background: url(/demosite/tos/images/footer.png) repeat right 0px;
+}
+
+.footer
+{
+    padding  : 5px 10px 10px 20px;
+}

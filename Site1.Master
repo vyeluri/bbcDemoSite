@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MenuDemos.Site1" %>
+<%@ Register Src="MainMenu.ascx" TagName="MainMenu" TagPrefix="bm" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BANC of Commerce</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <%--<script type="text/javascript">
+        $("document").ready(function () {
+            alert("Work in progress. V!");
+        });
+
+    </script>--%>
+
+    
+    <link rel="stylesheet" type="text/css" href="~/styles/screen_style.css" />
+    <link rel="stylesheet" type="text/css" href="~/styles/screen_large.css"/>
+    
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class ="page">
+       <asp:ScriptManager ID="ScriptManager1" runat="server" /> 
+        <header>
+               <%-- <a class="logo" href="default.aspx"></a>--%>
+            </header>
+
+    <div class="MenuBack">
+        <table><tr><td>
+            <bm:MainMenu runat="server" ID="mm" />
+        </td><td>
+        </td></tr></table>
+    </div>
+    <asp:ContentPlaceHolder ID="secondMenu" runat="server"/>
+    
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <div class="clear"></div>
+            <footer>
+                Work in progress. V!
+            </footer>
+
+        </div>
+    </form>
+</body>
+</html>
